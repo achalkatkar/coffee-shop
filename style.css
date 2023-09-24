@@ -116,6 +116,11 @@
     transform-origin: top;
   }
 
+  .header .search-form.active{
+    transform: scaleY(1);
+
+  }
+
   .header .search-form input{
     height: 100%;
     width: 100%;
@@ -144,6 +149,12 @@
     background: #fff;
     padding: 0 1.5rem;
 }
+
+.header .cart-items-container.active{
+  right: 0;
+
+}
+
 .cart-img-1{
   width: 100px;
   height: 130px;
@@ -238,6 +249,18 @@
 
 @media (max-width:991px) {
 
+  html{
+    font-size: 55%;
+  }
+
+  .header{
+    padding: 1.5rem 2rem; 
+  }
+
+}
+
+@media (max-width:768px) {
+
   #menu-btn{
     display: inline-block;
   }
@@ -260,6 +283,21 @@
     margin: 1.5rem;
     padding: .5rem;
     font-size: 2rem;
+  }
+
+  .header .search-form{
+    width: 90%;
+    right: 2rem;
+  }
+
+
+}
+
+
+@media (max-width:450px) {
+
+  html{
+    font-size: 50%;
   }
 
 
