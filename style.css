@@ -129,6 +129,10 @@
     background: #fff;
     padding: 0 1.5rem;
 }
+.cart-img-1{
+  width: 100px;
+  height: 130px;
+}
 
 .header .cart-items-container .cart-item{
   position: relative;
@@ -149,4 +153,20 @@
 
 .header .cart-items-container .cart-item .fa-times:hover{
   color: var(--main-color);
+}
+
+.header .cart-items-container .cart-item img{
+  height: 7rem;
+}
+
+.header .cart-items-container .cart-item .content{
+  font-size: 2rem;
+  color: var(--black);
+  padding-bottom: .5rem;
+}
+
+.header .cart-items-container .cart-item .price{
+  font-size: 1.5rem;
+  color: var(--black);
+  
 }
