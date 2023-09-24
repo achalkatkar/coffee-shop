@@ -26,8 +26,8 @@
     overflow-x: hidden;
     scroll-padding-top: 9rem;
     scroll-behavior: smooth;
-
   }
+
   html::-webkit-scrollbar{
     width: .8rem;
   }
@@ -43,6 +43,21 @@
   body{
     background: var(--bg);
   }
+
+  .btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--main-color);
+    cursor: pointer;
+  }
+
+  .btn:hover{
+    letter-spacing: .2rem;
+  }
+
   .header{
     background: var(--bg);
     display: flex;
@@ -123,7 +138,7 @@
  .header .cart-items-container{
     position: absolute;
     top: 100%;
-    right: 0;
+    right: -100%;
     height: calc(100vh - 9.5rem);
     width: 35em;
     background: #fff;
@@ -169,4 +184,80 @@
   font-size: 1.5rem;
   color: var(--black);
   
+}
+.header .cart-items-container .btn{
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  media queries  */
+@media (max-width:991px) {
+
+  html{
+    font-size: 55%;
+  }
+
+  .header{
+    padding: 1.5rem 2rem; 
+  }
+
+}
+
+
+@media (max-width:991px) {
+
+  #menu-btn{
+    display: inline-block;
+  }
+
+  .header .navbar{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: #fff;
+    width: 30rem;
+    height: calc(100vh - 9.5rem);
+  }
+
+  .header .navbar a{
+    display: block;
+    color: var(--black);
+    margin: 1.5rem;
+    padding: .5rem;
+    font-size: 2rem;
+  }
+
+
 }
