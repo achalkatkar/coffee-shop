@@ -280,8 +280,6 @@
 .menu .box-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  margin-left: 200px;
-  margin-right: 200px;
   gap: 1.5rem;
 }
 
@@ -319,8 +317,12 @@
   text-decoration: line-through;
 }
 
-.menu .box-container {
-  color: #fff;
+.menu .box-container .box:hover{
+  background: #fff;
+}
+
+.menu .box-container .box:hover > *{
+  color: var(--black);
  
 }
 
