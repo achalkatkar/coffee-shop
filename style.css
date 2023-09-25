@@ -323,6 +323,18 @@
   color: var(--black);
 }
 
+.product .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.product .box-container .box{
+  text-align: center;
+  border: var(--border);
+  padding: 2rem ;
+}
+
 
 
 
