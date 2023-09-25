@@ -220,7 +220,7 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(images/home-img.jpeg) no-repeat;
+  background: url(images/home-background-img.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -240,8 +240,7 @@
   font-weight: lighter;
   line-height: 1.8;
   padding: 1rem 0;
-  color: #eee;
-
+  color: #fff;
 }
 
 .about .row{
