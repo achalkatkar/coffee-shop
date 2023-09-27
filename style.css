@@ -478,10 +478,27 @@
   background: none;
 }
 
+.blogs .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+  gap: 1.5rem;
 
+}
 
+.blogs .box-container .box{
+  border: var(--border);
+}
+.blogs .box-container .box .image{
+  height: 25rem;
+  overflow: hidden;
+  width: 100%;
+}
 
-
+.blogs .box-container .box .image img{
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
 
 
 
